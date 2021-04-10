@@ -1,6 +1,8 @@
 # google services
 /android/app/google-services.json
 
+android/app/build
+
 # Logs
 logs
 *.log
@@ -130,8 +132,6 @@ DerivedData
 *.xcuserstate
 
 # Android/IntelliJ
-#
-android/app/build
 build/
 .idea
 .gradle

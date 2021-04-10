@@ -5,7 +5,7 @@ class MyButton extends Component {
     render() {
         return (
             <TouchableOpacity
-                style={styles.buttonStyle}
+                style={{...styles.buttonStyle, ...this.props.style}}
                 onPress={this.props.onPress}
             >
                 <Text style={styles.textStyle}>{this.props.title}</Text>
