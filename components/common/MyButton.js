@@ -16,10 +16,9 @@ class MyButton extends Component {
 
 const styles = StyleSheet.create({
     buttonStyle: {
-        
         width:100,
         backgroundColor: '#fff',
-        borderRadius: 1,
+        borderRadius: 10,
         borderWidth: 1,
         borderColor: '#c0c0c0',
         margin: 5,

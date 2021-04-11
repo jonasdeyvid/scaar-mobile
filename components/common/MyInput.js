@@ -12,6 +12,7 @@ class MyInput extends Component {
                     style={styles.input}
                     placeholder={this.props.placeholder}
                     onChangeText={this.props.onChangeText}
+                    value={this.props.value}
                 />
             </View>
         )
@@ -28,7 +29,7 @@ const styles = StyleSheet.create(
         },
         label:{
             flex:1,
-            fontSize:18,
+            fontSize:14,
             paddingLeft:10,
             paddingBottom:6 //gambiarra pro lineHeight
         },
@@ -36,7 +37,7 @@ const styles = StyleSheet.create(
             flex:4,
 
             color:'#000',
-            fontSize:18,
+            fontSize:14,
 
             paddingLeft:5,
             paddingRight:5,

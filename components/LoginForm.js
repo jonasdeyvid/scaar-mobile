@@ -60,6 +60,11 @@ export default class LoginForm extends Component {
     return (
       <View>
         <Card>
+        <CardItem>
+            <Text style={{fontSize: 18, fontWeight: 'bold', alignSelf: 'center', textAlign: 'center'}}>
+              SCAAR - Sistema de controle e acompanhamento de águas rurais
+            </Text>
+          </CardItem>
           <CardItem>
             <MyInput
               label="E-mail"

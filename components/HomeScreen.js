@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {View, Text} from 'react-native';
 import auth from '@react-native-firebase/auth';
 import LoginForm from './LoginForm';
-import ListagemCliente from './ListagemCliente'
+import ListagemLeituras from './ListagemLeituras'
 
 export default function HomeScreen({navigation}) {
   // Set an initializing state whilst Firebase connects
@@ -27,6 +27,6 @@ export default function HomeScreen({navigation}) {
   }
 
   return (
-    <ListagemCliente user={user} navigation={navigation}/>
+    <ListagemLeituras user={user} navigation={navigation}/>
   );
 }

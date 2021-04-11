@@ -23,7 +23,6 @@ const styles = StyleSheet.create({
         shadowRadius: 2,
 
         elevation: 1,
-        
         marginLeft: 5,
         marginRight: 5,
         marginTop: 10
