@@ -1,0 +1,14 @@
+com/scaar/MainApplication.java
+ com.scaar.MainApplication
+ com.scaar.MainApplication$1
+com/scaar/MainActivity.java
+ com.scaar.MainActivity
+com/scaar/ReactNativeFlipper.java
+ com.scaar.ReactNativeFlipper
+ com.scaar.ReactNativeFlipper$1
+ com.scaar.ReactNativeFlipper$2
+ com.scaar.ReactNativeFlipper$2$1
+com/scaar/BuildConfig.java
+ com.scaar.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
